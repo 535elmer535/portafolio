@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Star Web — Diseño web, branding y estrategia digital para startups y empresas modernas."
+    />
+    <meta name="theme-color" content="#0F3A56" />
+    <title>Star Web - Diseño Digital que Cambia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar" id="navbar" role="banner">
+      <div class="container nav-inner">
+        <a href="#" class="logo" aria-label="Star Web - inicio">
+          <img src="img/LOGO2.png" alt="Star Web Logo" class="logo-img" />
+          <span class="logo-text"><span class="logo-dot"></span></span>
+        </a>
+
+        <nav
+          class="nav-links"
+          role="navigation"
+          aria-label="Navegación principal"
+        >
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#testimonios">Clientes</a>
+          <a href="#contacto" class="btn btn-outline-nav">Hablemos</a>
+        </nav>
+        <button
+          class="burger"
+          id="burger"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="nav-mobile"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="nav-mobile" id="nav-mobile" aria-hidden="true">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#testimonios">Clientes</a>
+        <a href="#contacto">Hablemos</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- ===== NUEVO HERO DECORATIVO ===== -->
+      <section class="hero" id="inicio" aria-labelledby="hero-heading">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-grid"></div>
+
+          <!-- Elemento decorativo Izquierdo: Libros de diseño y carpetas -->
+          <div class="hero-deco deco-left reveal">
+            <img
+              src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=600&auto=format&fit=crop"
+              alt="Libros y libretas estéticas"
+            />
+          </div>
+
+          <!-- Elemento decorativo Derecho: Plantas/Macetas minimalistas y café -->
+          <div class="hero-deco deco-right reveal">
+            <img
+              src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?q=80&w=600&auto=format&fit=crop"
+              alt="Macetas y café de especialidad"
+            />
+          </div>
+        </div>
+
+        <div class="container hero-inner">
+          <div class="hero-badge reveal">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Disponible para nuevos proyectos en 2026
+          </div>
+          <h1 class="hero-title reveal" id="hero-heading">
+            Diseño digital<br />
+            <span class="gradient-text">que cambia.</span>
+          </h1>
+          <p class="hero-sub reveal">
+            Nos comprometemos a entregar trabajos de calidad, con atención
+            personalizada y soporte continuo, adaptándonos siempre a las
+            necesidades de cada cliente.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#contacto" class="btn btn-primary btn-sparkle"
+              >Iniciar proyecto</a
+            >
+            <a href="#portafolio" class="btn btn-ghost">Ver trabajos →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="logos-bar" aria-label="Clientes que confían en nosotros">
+        <div class="container">
+          <p class="logos-label">Empresas que confían en nosotros</p>
+          <div class="logos-track" aria-hidden="true">
+
+<div class="logos-inner">
+
+  <!-- ORIGINAL -->
+  <a href="https://catloverproducts.netlify.app/" target="_blank" class="logo-client">CAT LOVER</a>
+  <a href="https://estudio-juridico-clarosr-asoc.netlify.app/" target="_blank" class="logo-client">CLAROS R. & ASOCIADOS</a>
+  <a href="https://escarlet-fisio-center.netlify.app/" target="_blank" class="logo-client">ESCARLET FISIO CENTER</a>
+  <a href="https://arooma-cafe.netlify.app/" target="_blank" class="logo-client">CAFETERIA AROMAS</a>
+  <a href="https://tetris-retro-emprendimiento.netlify.app/" target="_blank" class="logo-client">RETRO-TETRIS</a>
+  <a href="https://aurayesencia.netlify.app/" target="_blank" class="logo-client">AURA & ESENCIA</a>
+  <a href="https://consultora-contable-juliet.netlify.app/" target="_blank" class="logo-client">JULIET</a>
+
+  <!-- 🔁 DUPLICADO (CLAVE PARA LOOP INFINITO) -->
+  <a href="https://catloverproducts.netlify.app/" target="_blank" class="logo-client">CAT LOVER</a>
+  <a href="https://estudio-juridico-clarosr-asoc.netlify.app/" target="_blank" class="logo-client">CLAROS R. & ASOCIADOS</a>
+  <a href="https://escarlet-fisio-center.netlify.app/" target="_blank" class="logo-client">ESCARLET FISIO CENTER</a>
+  <a href="https://arooma-cafe.netlify.app/" target="_blank" class="logo-client">CAFETERIA AROMAS</a>
+  <a href="https://tetris-retro-emprendimiento.netlify.app/" target="_blank" class="logo-client">RETRO-TETRIS</a>
+  <a href="https://aurayesencia.netlify.app/" target="_blank" class="logo-client">AURA & ESENCIA</a>
+  <a href="https://consultora-contable-juliet.netlify.app/" target="_blank" class="logo-client">JULIET</a>
+
+</div>
+
+          
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="servicios section"
+        id="servicios"
+        aria-labelledby="servicios-heading"
+      >
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">Lo que hacemos</span>
+            <h2 id="servicios-heading">
+              Servicios diseñados<br />para
+              <span class="gradient-text">mejorar tu negocio</span>
+            </h2>
+            <p>
+              Cada servicio está construido para entregar resultados reales, no
+              solo pixels bonitos.
+            </p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card reveal" tabindex="0">
+              <div class="service-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop"
+                  alt="Diseño Web - Mockup en laptop"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div class="service-icon" aria-hidden="true">⬡</div>
+                <h3>Diseño Web</h3>
+                <p>
+                  Sitios rápidos, accesibles y orientados a conversión.
+                  Diseñados desde cero con tu identidad.
+                </p>
+                <span class="service-tag">UI · UX · Dev</span>
+              </div>
+            </article>
+            <article class="service-card reveal" tabindex="0">
+              <div class="service-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop"
+                  alt="Branding - Guía de estilo"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div class="service-icon" aria-hidden="true">◈</div>
+                <h3>Branding & Identidad</h3>
+                <p>
+                  Logotipos, paletas, tipografías y guías de estilo que
+                  comunican quién eres antes de decir una palabra.
+                </p>
+                <span class="service-tag">Logo · Brand · Visual</span>
+              </div>
+            </article>
+
+            <article class="service-card reveal" tabindex="0">
+              <div class="service-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop"
+                  alt="Estrategia Digital - Análisis de datos"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div class="service-icon" aria-hidden="true">◬</div>
+                <h3>Estrategia Digital</h3>
+                <p>
+                  SEO, analítica, contenido y redes sociales integrados en una
+                  sola estrategia coherente.
+                </p>
+                <span class="service-tag">SEO · Content · Social</span>
+              </div>
+            </article>
+
+
+
+<article class="service-card reveal" tabindex="0">
+  <div class="service-img-wrapper">
+    <img
+      src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=600&q=80"
+      alt="E-commerce - Tienda online"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="service-content">
+    <div class="service-icon" aria-hidden="true">⬟</div>
+    <h3>E-commerce</h3>
+    <p>
+      Tiendas online que venden. Checkout optimizado, catálogos
+      dinámicos y experiencia de compra fluida.
+    </p>
+    <span class="service-tag">Shop · UX · Payments</span>
+  </div>
+</article>
+
+
+<article class="service-card reveal" tabindex="0">
+  <div class="service-img-wrapper">
+    <img
+      src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80"
+      alt="Motion & Visual - Edición de video"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="service-content">
+    <div class="service-icon" aria-hidden="true">⌬</div>
+    <h3>Motion & Visual</h3>
+    <p>
+      Animaciones, videos cortos y contenido visual para redes que
+      generan engagement real.
+    </p>
+    <span class="service-tag">Motion · Reels · 3D</span>
+  </div>
+</article>
+
+            <article class="service-card reveal" tabindex="0">
+              <div class="service-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
+                  alt="Hosting & Soporte - Servidores"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div class="service-icon" aria-hidden="true">⬡</div>
+                <h3>Hosting & Soporte</h3>
+                <p>
+                  Infraestructura veloz, copias de seguridad automáticas y
+                  soporte técnico sin tiempos muertos.
+                </p>
+                <span class="service-tag">Cloud · Speed · 24/7</span>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="proceso section"
+        id="proceso"
+        aria-labelledby="proceso-heading"
+      >
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">Cómo trabajamos</span>
+            <h2 id="proceso-heading">
+              Un proyecto <span class="gradient-text">claro</span><br />y sin
+              sorpresas
+            </h2>
+          </div>
+          <ol class="proceso-list">
+            <li class="proceso-item reveal">
+              <span class="proceso-num" aria-hidden="true">01</span>
+              <div class="proceso-content">
+                <h3>Descubrimiento</h3>
+                <p>
+                  Entendemos tu negocio, objetivos y audiencia antes de diseñar
+                  una sola pantalla.
+                </p>
+              </div>
+            </li>
+            <li class="proceso-item reveal">
+              <span class="proceso-num" aria-hidden="true">02</span>
+              <div class="proceso-content">
+                <h3>Estrategia & Diseño</h3>
+                <p>
+                  Wireframes, prototipos y propuestas visuales. Iteramos hasta
+                  que estés satisfecho.
+                </p>
+              </div>
+            </li>
+            <li class="proceso-item reveal">
+              <span class="proceso-num" aria-hidden="true">03</span>
+              <div class="proceso-content">
+                <h3>Desarrollo</h3>
+                <p>
+                  Código limpio, semántico y optimizado. Cada detalle funciona
+                  en todos los dispositivos.
+                </p>
+              </div>
+            </li>
+            <li class="proceso-item reveal">
+              <span class="proceso-num" aria-hidden="true">04</span>
+              <div class="proceso-content">
+                <h3>Lanzamiento & Crecimiento</h3>
+                <p>
+                  Publicamos, medimos y optimizamos. Tu web mejora con el
+                  tiempo.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section
+        class="portafolio section"
+        id="portafolio"
+        aria-labelledby="portafolio-heading"
+      >
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">Nuestro trabajo</span>
+            <h2 id="portafolio-heading">
+              Proyectos que <span class="gradient-text">hablan</span><br />por
+              sí solos
+            </h2>
+          </div>
+
+          <!-- ============================================================ -->
+
+          <div class="portfolio-grid">
+
+            <article class="portfolio-item reveal">
+              <a href="https://catloverproducts.netlify.app/" target="_blank">
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/ima6.PNG"
+                    alt="CAT LOVER"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">CAT LOVER</span>
+                <h3>CAT LOVER</h3>
+              </div>
+            </article>
+
+            <article class="portfolio-item reveal">
+              <a href="https://arooma-cafe.netlify.app/" target="_blank">
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/ima1.png"
+                    alt="Aromas de aqui - Cafetería y Pastelería"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">cafeteria & pasteleria</span>
+                <h3>Aromas de aqui</h3>
+              </div>
+            </article>
+            <article class="portfolio-item reveal">
+              <a
+                href="https://escarlet-fisio-center.netlify.app/"
+                target="_blank"
+              >
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/ima4.PNG"
+                    alt="Escarlet Fisio Center - Fisioterapia"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">fisioterapia</span>
+                <h3>Fisio Center</h3>
+              </div>
+            </article>
+
+            <article class="portfolio-item reveal">
+              <a
+                href="https://estudio-juridico-clarosr-asoc.netlify.app/"
+                target="_blank"
+              >
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/ima2.jpg"
+                    alt="Claros R. & Asociados - Estudio Jurídico"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">estudio jurídico</span>
+                <h3>Claros & Asociados</h3>
+              </div>
+            </article>
+
+            <article class="portfolio-item reveal">
+              <a
+                href="https://consultora-contable-juliet.netlify.app/"
+                target="_blank"
+              >
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/ima3.jpg"
+                    alt="Juliet - Consultoría y Auditoría"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Juliet</span>
+                <h3>Consultoria y Auditoria</h3>
+              </div>
+            </article>
+
+            <article class="portfolio-item reveal">
+              <a
+                href="https://aurayesencia.netlify.app/"
+                target="_blank"
+              >
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/ima5.png"
+                    alt="Aura & Esencia - Perfumes"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">perfumes</span>
+                <h3>Aura & Esencia</h3>
+              </div>
+            </article>
+
+
+            <article class="portfolio-item reveal">
+              <a
+                href="https://tetris-retro-emprendimiento.netlify.app/"
+                target="_blank"
+              >
+                <div class="portfolio-img-wrapper">
+                  <img
+                    src="img/RETRO-TETRI.jpg"
+                    alt="Retro Tetris"
+                    loading="lazy"
+                    width="700"
+                    height="480"
+                  />
+                </div>
+              </a>
+
+              <div class="portfolio-info">
+                <span class="portfolio-cat">RETRO-TETRIS</span>
+                <h3>RETRO-TETRIS</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================= -->
+
+      <section
+        class="testimonios section"
+        id="testimonios"
+        aria-labelledby="testimonios-heading"
+      >
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">Testimonios</span>
+            <h2 id="testimonios-heading">
+              Lo que dicen<br />nuestros
+              <span class="gradient-text">clientes</span>
+            </h2>
+          </div>
+          <div class="testimonios-grid">
+            <blockquote class="testimonial-card glass reveal">
+              <div class="testimonial-header">
+                <img
+                  src="https://i.pravatar.cc/64?img=11"
+                  alt="Foto de Camila R."
+                  loading="lazy"
+                  width="64"
+                  height="64"
+                />
+                <div>
+                  <cite>Camila R.</cite>
+                  <span>CEO, Arcturus</span>
+                </div>
+              </div>
+              <p>
+                "Star Web transformó por completo nuestra presencia digital. El
+                proceso fue transparente y el resultado superó todas nuestras
+                expectativas."
+              </p>
+            </blockquote>
+            <blockquote class="testimonial-card glass reveal">
+              <div class="testimonial-header">
+                <img
+                  src="https://i.pravatar.cc/64?img=32"
+                  alt="Foto de Marco V."
+                  loading="lazy"
+                  width="64"
+                  height="64"
+                />
+                <div>
+                  <cite>Marco V.</cite>
+                  <span>Founder, Veltrix</span>
+                </div>
+              </div>
+              <p>
+                "El equipo entiende tanto de diseño como de negocio. Nuestra
+                tasa de conversión aumentó un 40% en los primeros 3 meses."
+              </p>
+            </blockquote>
+            <blockquote class="testimonial-card glass reveal">
+              <div class="testimonial-header">
+                <img
+                  src="https://i.pravatar.cc/64?img=47"
+                  alt="Foto de Lucía M."
+                  loading="lazy"
+                  width="64"
+                  height="64"
+                />
+                <div>
+                  <cite>Lucía M.</cite>
+                  <span>CMO, Solara</span>
+                </div>
+              </div>
+              <p>
+                "Trabajar con Star Web es como tener un equipo creativo interno.
+                Responden rápido y siempre entregan algo que te sorprende."
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner" aria-labelledby="cta-heading">
+        <div class="container cta-inner reveal">
+          <div class="cta-orb" aria-hidden="true"></div>
+          <h2 id="cta-heading">
+            ¿Listo para llevar tu marca<br />al siguiente nivel?
+          </h2>
+          <p>Cuéntanos tu idea. Te respondemos en menos de 24 horas.</p>
+          <a href="#contacto" class="btn btn-primary btn-sparkle btn-lg"
+            >Empezar ahora →</a
+          >
+        </div>
+      </section>
+
+      <section
+        class="contacto section"
+        id="contacto"
+        aria-labelledby="contacto-heading"
+      >
+        <div class="container contacto-inner">
+          <div class="contacto-info reveal">
+            <span class="section-tag">Contacto</span>
+            <h2 id="contacto-heading">
+              Hablemos de<br />tu <span class="gradient-text">proyecto</span>
+            </h2>
+            <p>
+              Estamos disponibles para proyectos de cualquier tamaño. Sin
+              compromisos, sin formularios interminables.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon" aria-hidden="true">✉</span>
+                <a href="mailto:Star_Web@studio.com">Star_Web@studio.com</a>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">📱</span>
+                <a href="tel:+59162721345">(+591) 62721345</a>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">🌐</span>
+                <span>Trabajo remoto · Global</span>
+              </li>
+            </ul>
+          </div>
+          <div class="contacto-form reveal">
+            <!-- Formulario de contacto -->
+            <form
+              id="contact-form"
+              novalidate
+              aria-label="Formulario de contacto"
+            >
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="tu@email.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="servicio">Servicio de interés</label>
+                <select id="servicio" name="servicio" required>
+                  <option value="">Selecciona un servicio</option>
+                  <option value="Diseño Web">Diseño Web</option>
+                  <option value="Branding & Identidad">
+                    Branding & Identidad
+                  </option>
+                  <option value="E-commerce">E-commerce</option>
+                  <option value="Estrategia Digital">Estrategia Digital</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  placeholder="Cuéntame sobre tu proyecto..."
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-full">
+                Enviar a WhatsApp
+              </button>
+              <p
+                class="form-feedback"
+                id="form-feedback"
+                aria-live="polite"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Star Web — inicio">
+            <img src="img/LOGO2.png" alt="Star Web Logo" class="logo-img" />
+            <span class="logo-text"><span class="logo-dot"></span></span>
+          </a>
+          <p>
+            Diseño & Estrategia Digital.<br />Creando experiencias que importan.
+          </p>
+        </div>
+        <nav class="footer-links" aria-label="Navegación del pie de página">
+          <h3>Servicios</h3>
+          <a href="#servicios">Diseño Web</a>
+          <a href="#servicios">Branding</a>
+          <a href="#servicios">E-commerce</a>
+          <a href="#servicios">Estrategia</a>
+        </nav>
+        <nav class="footer-links" aria-label="Información sobre nosotros">
+          <h3>Estudio</h3>
+          <a href="#proceso">Proceso</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#testimonios">Clientes</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 STARWEB. elmer, Todos los derechos reservados.</p>
+        <p>Diseñado con intención.</p>
+      </div>
+    </footer>
+
+    <button class="back-top" id="back-top" aria-label="Volver arriba">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
